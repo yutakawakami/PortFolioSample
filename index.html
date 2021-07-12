@@ -24,42 +24,79 @@
             </a>
         </h1>
     </header>
-
     <!-- 
         mainタグの作成
         ・portofolio用とwork用の箱を作成する。
-        ・divタグを使っていきます。
+        →divタグを使っていきます。
     -->
     <div class="block-main">
         <!-- profileの箱 -->
-        <div　class=box-profile>
+        <div　class="box-profile">
             <h2 class="sub-title">
                 <span class="color-green">P</span>ortfolio
             </h2>
             <div class="item-list">
-                <img src="img/profile.png" alt="プロフィール画像">
+                <img src="./img/profile.png" alt="プロフィール画像">
                 <b>河上 勇太</b>
                 <p class="color-green">HTML / CSS / PHP / Larabel / Adobe XD</p>
                 <p>はじめまして。河上勇太と申します。</p>
             </div>
             <ul class="icon-list">
                 <li>
-                   <a href=""></a> 
-                   <img src="img/twitter.png" alt="Twitterアイコン">
+                   <a href="">
+                    <img src="img/twitter.png" alt="Twitterアイコン">
+                    </a> 
                 </li>
                 <li>
-                    <a href=""></a>
+                    <a href="">
                     <img src="img/github.png" alt="GitHubアイコン">
+                    </a> 
                 </li>
             </ul>
         </div>
-        
         <!-- workの箱 -->
-        <div>
-
+        <div class="box-works">
+            <h2 class="sub-title">
+                <span class="color-green">W</span>orks
+            </h2>
+            <ul class="works-list">
+                <li>
+                    <img src="img/work_1.png" alt="Twitterクローンの画像">
+                    <h3>Twitterクローン</h3>
+                    <span>HTML/CSS/JavaScript/PHP/MySQL</span>
+                    <div class="link">
+                        <a href="">Webサイト</a>
+                        <a href="">GitHub</a>
+                    </div>                    
+                </li>
+                <li>
+                    <img src="img/work_1.png" alt="Twitterクローンの画像">
+                    <h3>Twitterクローン</h3>
+                    <span>HTML/CSS/JavaScript/PHP/MySQL</span>
+                    <div class="link">
+                        <a href="">Webサイト</a>
+                        <a href="">GitHub</a>
+                    </div> 
+                </li>
+                <li>
+                    <img src="img/work_1.png" alt="Twitterクローンの画像">
+                    <h3>Twitterクローン</h3>
+                    <span>HTML/CSS/JavaScript/PHP/MySQL</span>
+                    <div class="link">
+                        <a href="">Webサイト</a>
+                        <a href="">GitHub</a>
+                    </div> 
+                </li>
+            </ul>
         </div>
-
     </div>
-
+    <!--
+        footerタグの作成
+        ・copyrightの設定
+        →pタグを使います
+    -->
+    <footer class="block-footer">
+        <p>Copyright ©︎ TECH I.S., Inc.</p>
+    </footer>
 </body>
 </html>
